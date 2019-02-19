@@ -12,5 +12,5 @@ end
 
 def assign_rooms(array)
   array.each_index do |index| 
-    return index + 1
+    index + 1
 end 
