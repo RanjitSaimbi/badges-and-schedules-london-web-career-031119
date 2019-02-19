@@ -17,3 +17,10 @@ def assign_rooms(array)
 }
 return newArray
 end 
+
+def printer(attendees) 
+  array1 = batch_badge_creator(attendees)
+  array2 = assign_rooms(attendees)
+  puts array1
+  puts array2
+end 
