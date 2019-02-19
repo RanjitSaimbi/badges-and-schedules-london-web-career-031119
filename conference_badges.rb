@@ -26,5 +26,9 @@ def printer(attendees)
     puts name 
   end 
   
+  roomsArray.each do |name|
+    puts name 
+  end 
+  
   
 end 
