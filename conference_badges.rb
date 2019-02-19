@@ -19,10 +19,5 @@ return newArray
 end 
 
 def printer(attendees) 
-  attendees.each do |name|
-    puts batch_badge_creator(name)
-  end 
-  attendees.each do |name|
-    puts assign_rooms(name)
-  end 
+  
 end 
