@@ -3,10 +3,10 @@ def badge_maker(name)
 end 
 
 def batch_badge_creator(array)
-temp = []
-  array.each do |number| 
-    temp <<  (number * number)
+  temp = []
+  array.each do |name| 
+    temp <<  (badge_maker(name))
   end
-  temp
+  return temp
 end 
 
