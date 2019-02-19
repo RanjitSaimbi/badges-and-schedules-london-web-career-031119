@@ -23,6 +23,8 @@ def printer(attendees)
   roomsArray = assign_rooms(attendees)
   
   badgeArray.each do |name|
-    puts 
-  end   
+    puts name 
+  end 
+  
+  
 end 
