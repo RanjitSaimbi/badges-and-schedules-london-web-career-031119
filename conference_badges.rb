@@ -19,5 +19,10 @@ return newArray
 end 
 
 def printer(attendees) 
-  
+  array.each do |name|
+    puts batch_badge_creator(name)
+  end 
+  array.each do |name|
+    puts batch_badge_creator(name)
+  end 
 end 
