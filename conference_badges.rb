@@ -11,5 +11,6 @@ def batch_badge_creator(array)
 end 
 
 def assign_rooms(array)
-  array.each_index 
+  array.each_index do |index| 
+    return index + 1
 end 
