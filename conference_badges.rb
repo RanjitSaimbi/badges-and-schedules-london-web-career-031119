@@ -19,5 +19,6 @@ return newArray
 end 
 
 def printer(attendees) 
-  
+  badgeArray = batch_badge_creator(attendees)
+  roomsArray = assign_rooms(attendees)
 end 
